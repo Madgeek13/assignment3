@@ -96,3 +96,33 @@ div {
 .nutritionfact {
     margin: 10px 10px 10px 550px;
 }
+
+#item1 {
+    display: flex;
+    flex: 1; 
+    background-color: aqua;
+}
+
+#item2 {
+    display: flex;
+    flex: 1;
+    background-color: black;
+}
+
+#item3 {
+    display: flex;
+    flex: 1;
+    background-color: grey;
+}
+
+#item4 {
+    display: flex;
+    flex: 1;
+    background-color: red;
+}
+
+main {
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+}
