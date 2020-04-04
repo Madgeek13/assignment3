@@ -41,7 +41,8 @@ body {
     border-radius: 15px;
 }
 
-.steps, body main ul{
+.steps,
+body main ul {
     margin: 0px 30px 0px 30px;
     font-size: 1em;
     color: rgb(67, 91, 101);
@@ -62,7 +63,9 @@ footer {
     margin-right: auto;
 }
 
-.moreinfo, body, header nav {
+.moreinfo,
+body,
+header nav {
     margin: 0px 50px 2px 50px;
 }
 
@@ -77,13 +80,13 @@ a:hover {
     color: black;
 }
 
-div {
+/*div {
     font-size: 1.2em;
     font-family: sans-serif;
-    text-align: left;
+    text-align: center;
     padding: 30px;
 }
-
+*/
 
 .info {
     font-size: 1em;
@@ -97,16 +100,30 @@ div {
     margin: 10px 10px 10px 550px;
 }
 
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 10px; 
+    flex-wrap:wrap; 
+    width: 25px; 
+    height: 10px; 
+}
+
+.container div {
+    margin: 15px;
+}
+
 #item1 {
     display: flex;
-    flex: 1; 
-    background-color: aqua;
+    flex: 1;
+    background-color: yellow; 
 }
 
 #item2 {
     display: flex;
-    flex: 1;
-    background-color: black;
+    flex:1; 
+    background-color: white;
 }
 
 #item3 {
@@ -119,10 +136,4 @@ div {
     display: flex;
     flex: 1;
     background-color: red;
-}
-
-main {
-    flex: 1;
-    flex-direction: row;
-    align-items: center;
 }
