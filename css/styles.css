@@ -80,13 +80,11 @@ a:hover {
     color: black;
 }
 
-/*div {
-    font-size: 1.2em;
-    font-family: sans-serif;
-    text-align: center;
-    padding: 30px;
+a {
+    transition: background-color .3s, color .3s;
+    text-decoration: none;
 }
-*/
+
 
 .info {
     font-size: 1em;
@@ -100,15 +98,23 @@ a:hover {
     margin: 10px 10px 10px 550px;
 }
 
-.container {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    padding: 10px; 
-    flex-wrap:wrap; 
-    width: 25px; 
-    height: 10px; 
+@media screen and (max-width: 50rem) {
+
+    header,
+    main,
+    footer {
+        flex-direction: row;
+    }
 }
+
+
+main, .container, footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .container div {
     margin: 15px;
@@ -117,23 +123,23 @@ a:hover {
 #item1 {
     display: flex;
     flex: 1;
-    background-color: yellow; 
 }
 
 #item2 {
     display: flex;
-    flex:1; 
-    background-color: white;
+    flex: 1;
 }
 
 #item3 {
     display: flex;
     flex: 1;
-    background-color: grey;
 }
 
 #item4 {
     display: flex;
-    flex: 1;
-    background-color: red;
+    flex: 3;
+}
+
+header nav li {
+    list-style-type: none; 
 }
