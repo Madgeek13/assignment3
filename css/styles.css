@@ -9,7 +9,7 @@ h3 {
     color: rgb(47, 44, 47);
     font-family: 'arial';
     font-size: 1.5em;
-    text-align: center
+    text-align: center;
 }
 
 body {
@@ -103,7 +103,7 @@ a {
     header,
     main,
     footer {
-        flex-direction: row;
+        flex-direction: column;
     }
 }
 
@@ -115,29 +115,32 @@ main, .container, footer {
     justify-content: center;
 }
 
-
+.indexcontain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    
+    
+}
 .container div {
     margin: 15px;
 }
 
-#item1 {
+#item1, {
     display: flex;
-    flex: 1;
 }
+
 
 #item2 {
     display: flex;
-    flex: 1;
 }
 
 #item3 {
     display: flex;
-    flex: 1;
 }
 
 #item4 {
     display: flex;
-    flex: 3;
 }
 
 header nav li {
