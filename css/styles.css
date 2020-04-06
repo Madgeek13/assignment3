@@ -126,21 +126,36 @@ main, .container, footer {
     margin: 15px;
 }
 
-#item1, {
+#item1 {
     display: flex;
 }
 
+#item1text {
+    display: flex; 
+}
 
 #item2 {
     display: flex;
+}
+
+#item2text {
+    display: flex; 
 }
 
 #item3 {
     display: flex;
 }
 
+#item3text {
+    display: flex; 
+}
+
 #item4 {
     display: flex;
+}
+
+#item1text {
+    display: flex; 
 }
 
 header nav li {
